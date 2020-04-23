@@ -1,0 +1,7 @@
+banner.jpg
+    pic01.jpg
+    pic02.jpg
+    picBakugo.jpg
+    picGon.jpg
+    picIron.jpg
+    picKen.jpg
