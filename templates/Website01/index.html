@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+
+	
+<!-- Linking CSS and JS to html-->
+
+		 <title>Flask app</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
+
+	<script src="{{url_for('static', filename='js/main.js')}}"></script>
+
+	<script src="{{url_for('static', filename='js/jquery.js')}}"></script>
+
+	<script src="{{url_for('static', filename='js/skel.min.js')}}"></script>
+
+	<script src="{{url_for('static', filename='js/util.js')}}"></script>
+
+	</head>
+
+<!-- Linking ends here-->
+
+	
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<p>Check My Website</p>
+				</div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				{# <img src="{{url_for('static', filename='images/banner.jpg')}}" alt="Background top" /> #}
+				<h1>Welcome to my Website</h1>
+				<p>I don't have any copyright of any images on this website feel free to message me to remove them.</p>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper">
+				<div class="inner">
+					<div class="flex flex-3">
+						<article>
+							<header>
+								<h3>Option: 1<br /> click on More</h3>
+							</header>
+							<p>clicking on more diverts the page to the option 1</p>
+							<footer>
+								<a href="#" class="button special">More</a>
+							</footer>
+						</article>
+						<article>
+							<header>
+								<h3>Option: 2<br /> click on more</h3>
+							</header>
+							<p>
+								clicking on more diverts the page to the option 2
+							</p>
+							<footer>
+								<a href="#" class="button special">More</a>
+							</footer>
+						</article>
+						<article>
+							<header>
+								<h3>Option: 3<br /> click on more</h3>
+							</header>
+							<p>clicking on more diverts the page to the option 3</p>
+							<footer>
+								<a href="#" class="button special">More</a>
+							</footer>
+						</article>
+					</div>
+				</div>
+			</section>
+
+
+<!-- Upper side ends here-->
+
+
+		<!-- Two -->
+			<section id="two" class="wrapper style1 special">
+				<div class="inner">
+					<header>
+						<h2>Our Team</h2>
+						<p>College Fest 2020</p>
+					</header>
+					<div class="flex flex-4">
+						<div class="box person">
+							<div class="image round">
+								<img src="{{url_for('static', filename='images/picBakugo.jpg')}}" alt="Person 1" />
+							</div>
+							<h3>Bakugo Katsuki</h3>
+							<p>Upcoming Hero</p>
+						</div>
+						<div class="box person">
+							<div class="image round">
+								<img src="{{url_for('static', filename='images/picIron.jpg')}}" alt="Person 2" />
+							</div>
+							<h3>Tony Stark</h3>
+							<p>Avenger's Founder</p>
+						</div>
+						<div class="box person">
+							<div class="image round">
+								<img src="{{url_for('static', filename='images/picGon.jpg')}}" alt="Person 3" />
+							</div>
+							<h3>Gon Freecss</h3>
+							<p>Traveller</p>
+						</div>
+						<div class="box person">
+							<div class="image round">
+								<img src="{{url_for('static', filename='images/picKen.jpg')}}" alt="Person 4" />
+							</div>
+							<h3>Ken Kaneki</h3>
+							<p>Working to create <br> the better world</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper special">
+				<div class="inner">
+					<header class="align-center">
+						<h2>We save the World!!!</h2>
+						<p>Join us to save the world!</p>
+					</header>
+					<div class="flex flex-2">
+						<article>
+							<div class="image fit">
+								<img src="{{url_for('static', filename='images/pic01.jpg')}}" alt="Pic 01" />
+							</div>
+							<header>
+								<h3>Battle of New York</h3>
+							</header>
+							<p>The Battle of New York, also known as the Attack on New York, the Attack on Midtown Manhattan, the Manhattan Crisis, and the Incident, was a major battle between the Avengers and Loki with his borrowed Chitauri army in Manhattan, New York City.</p>
+						</article>
+						<article>
+							<div class="image fit">
+								<img src="{{url_for('static', filename='images/pic02.jpg')}}" alt="Pic 02" />
+							</div>
+							<header>
+								<h3>Meteor Save!</h3>
+							</header>
+							<p>Astronomers detect a giant asteroid heading toward Z-City. The Hero Association calls the S-Class heroes to stop it. At the Z-City Hero Association branch, Genos meets Saitama the One Punch Man, who stops the meteor by punching it. Genos then destroys the small pieces of remaining meteor.</p>
+						</article>
+					</div>
+				</div>
+			</section>
+
+		
+		<!-- Scripts -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/skel.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script>
+
+	</body>
+</html>
