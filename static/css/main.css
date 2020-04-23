@@ -2937,10 +2937,10 @@
 
 		/*background-image: {{url_for('static', filename='images/banner.jpg')}};*/
 		
-		/*background: url({% static "../images/banner.jpg" %});*/
+		/*background: url({% static "../images/banner.jpg" %});
 
 		background-image: url({{ url_for('static',filename = '../images/banner.jpg')}});
-
+*/
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;

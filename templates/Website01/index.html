@@ -23,7 +23,12 @@
 	<script src="{{url_for('static', filename='js/skel.min.js')}}"></script>
 
 	<script src="{{url_for('static', filename='js/util.js')}}"></script>
-
+	<!-- Maanual Dynamic Styling through Template Engine-->
+	<style>
+		#banner{
+			background-image: url("{{url_for('static',filename = 'images/banner.jpg')}}");
+		}
+	</style>
 	</head>
 
 <!-- Linking ends here-->
